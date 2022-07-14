@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather',
+        serif;
+}
+
+.left {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -30%);
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.anchor-button {
+    text-decoration: unset;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+}
+
+.half-width {
+    width: 40%;
+    box-shadow: 5px 7px 40px rgb(145, 233, 86);
+    border-radius: 15px;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    text-align: justify;
+}
+
+.explore {
+    font-size: 35px;
+    color: darkturquoise;
+}
+
+.depend {
+    text-align: center;
+}
+
+.depend h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(219, 146, 45);
+}
