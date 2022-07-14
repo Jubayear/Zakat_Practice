@@ -49,3 +49,98 @@ body {
     font-size: 35px;
     color: rgb(219, 146, 45);
 }
+
+.mini-blogs {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.mini-blogs>section {
+    display: flex;
+    width: 35%;
+    padding-left: 145px;
+    padding-right: 0px;
+}
+
+.mini-blogs>section>div {
+    background-color: #FFEEEE;
+    border-radius: 10px;
+}
+
+.mini-blogs>section>div img {
+    width: 35px;
+    margin-top: 37%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.direct {
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.direct>p {
+    color: black;
+    font-weight: 300;
+}
+
+.lives-depend>header {
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 35px;
+    padding-left: 400px;
+    padding-right: 400px;
+    color: #707070;
+}
+
+.lives-depend>header>h1 {
+    font-size: 42px;
+    margin: 0%;
+    color: black;
+}
+
+/* photo-album section */
+.photos {
+    display: flex;
+    padding-left: 55px;
+    padding-right: 20px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.photo-1 {
+    padding-right: 20px;
+}
+
+.photo-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.photo-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer h1 {
+    color: #FF5959;
+    font-size: 34px;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    margin: 0%;
+}
+
+footer p {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+}
